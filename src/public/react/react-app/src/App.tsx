@@ -3,7 +3,27 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
   render() {
+
+    async function callExpress() {
+
+      try {
+
+        let response = await fetch('/api/say-hello/NikoRoberts')
+          .then(res => res.json());
+
+        alert('This is a response from the back-end: ' + response.response);
+
+      } catch (err) {
+
+        alert(err);
+
+      }
+    }
+
+    callExpress();
+
     return (
       <div className="App">
         <header className="App-header">
