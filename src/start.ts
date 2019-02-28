@@ -1,12 +1,12 @@
 
 // start the server for development, production, or testing
 
-import server from './server';
+import AppServer from './AppServer';
 
 // start the server or run tests
 if (process.argv[2] !== 'test') {
 
-  let server = new server();
+  let server = new AppServer();
   server.start();
 
 } else {

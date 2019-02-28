@@ -1,10 +1,10 @@
 import { Server } from '@overnightjs/core';
 import { cimp } from 'simple-color-print';
 
-class server extends Server {
+class AppServer extends Server {
 
   private _port = 3001;
-  private readonly _SERVER_START_MSG = 'Server started on port: ';
+  private readonly _SERVER_START_MSG = 'Server running on port: ';
 
   constructor() {
     super();
@@ -17,4 +17,4 @@ class server extends Server {
   }
 }
 
-export default server;
+export default AppServer;
