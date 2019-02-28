@@ -1,0 +1,19 @@
+{
+  "name": "typescript-react",
+  "version": "1.0.0",
+  "description": "react app using typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvld/typescript-react.git"
+  },
+  "author": "Niko Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvld/typescript-react/issues"
+  },
+  "homepage": "https://github.com/dvld/typescript-react#readme"
+}
