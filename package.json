@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/dvld/typescript-react/issues"
   },
-  "homepage": "https://github.com/dvld/typescript-react#readme"
+  "homepage": "https://github.com/dvld/typescript-react#readme",
+  "devDependencies": {
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333",
+    "nodemon": "^1.18.10"
+  }
 }
