@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@overnightjs/core": "^1.4.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "simple-color-print": "^1.0.6"
   }
 }
